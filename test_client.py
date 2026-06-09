@@ -15,8 +15,7 @@ load_dotenv()
 CUSTOMER_AGENT_URL = os.getenv("CUSTOMER_AGENT_URL", "http://localhost:10100")
 
 QUESTION = (
-    "If a company breaks a contract and avoids taxes, "
-    "what are the legal and regulatory consequences?"
+    "Thuế thu nhập cá nhân cho người có thu nhập dưới 5 triệu 1 tháng?"
 )
 
 
